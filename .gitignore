@@ -37,6 +37,8 @@ ENV/
 
 # Data and output files that might contain student info
 data/
+# Allow .gitkeep files
+!data/.gitkeep
 # Uncomment if you want to include public sample data only
 # !data/sample/
 
