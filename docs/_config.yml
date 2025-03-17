@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: Leadership 352 Team Simulation Project
+description: Explore team dynamics through AI-powered simulations
+show_downloads: true
+github:
+  is_project_page: true
+  repository_url: https://github.com/actonbp/352-agent-project 
