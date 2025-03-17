@@ -1,0 +1,114 @@
+# Python standard gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and output files that might contain student info
+data/
+# Uncomment if you want to include public sample data only
+# !data/sample/
+
+# Student-specific files and directories
+*student*/
+*submission*/
+*homework*/
+*assignment*/
+
+# Grading or assessment files
+*grade*/
+*assessment*/
+*feedback*/
+*evaluation*/
+
+# API keys and sensitive configuration
+*.env
+*config*.json
+*credentials*.json
+*secret*.json
+*api_key*
+*apikey*
+*token*
+
+# Specific file patterns for student names
+*team_*_submission*
+*lastname*
+*studentID*
+
+# Any files that match these specific patterns
+*_solution.*
+*_key.*
+*_answer.*
+
+# Data files that may contain sensitive information
+# But DO keep example data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+# Uncomment to include sample data files
+# !*sample*.csv
+# !*example*.csv
+
+# Quarto build directories
+/_site/
+/.quarto/
+/_book/
+/_freeze/
+*_files/
+
+# Quarto files that aren't examples or templates
+# Exclude all .qmd files except templates/examples
+*.qmd
+!*template*.qmd
+!*example*.qmd
+!*guide*.qmd
+
+# Keep all PDF files that are templates/guides
+*.pdf
+!*template*.pdf
+!*guide*.pdf
+!*example*.pdf
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
