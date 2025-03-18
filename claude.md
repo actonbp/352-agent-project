@@ -13,6 +13,32 @@ This project is an educational tool for the LEAD 352 course at Berkeley Haas, fo
 
 The target audience is undergraduate students with varying levels of technical expertise.
 
+## 🔄 Primary Workflow and Priorities
+
+The main development workflow for this project focuses on three key areas, in order of priority:
+
+### 1. Checkpoint Documents and Assignment Materials
+- Create and refine assignment templates, worksheets, and rubrics
+- Develop check-in document templates for student progress tracking
+- Update assignment guidelines with clear instructions and deadlines
+- Ensure all materials align with course learning objectives
+
+### 2. Setup Guides and Environment Documentation
+- Develop comprehensive VS Code setup instructions for beginners
+- Create environment setup guides for Windows, macOS, and Linux
+- Document Python installation and virtual environment configuration
+- Provide troubleshooting guides for common setup issues
+
+### 3. CrewAI Example Code Development (PRIMARY FOCUS)
+- **This is where most development time should be spent**
+- Build working, well-documented examples using CrewAI
+- Create template code that students can easily modify
+- Develop simulations demonstrating different team dynamics concepts
+- Ensure examples run efficiently with reasonable API costs
+- Include clear comments and explanations throughout the code
+
+The goal is to provide students with ready-to-use, modifiable examples that demonstrate the concepts while requiring minimal coding experience to adapt.
+
 ## 📋 When Working on This Project
 
 ### Key Priorities
@@ -75,6 +101,16 @@ This project uses CrewAI as the underlying framework for simulations. Key concep
 - **Tasks**: Define work to be done, with descriptions and expected outputs
 - **Crew**: Groups agents together and orchestrates their interactions
 - **Process**: Defines how tasks are executed (sequential or hierarchical)
+
+### CrewAI Development Focus
+
+Most of your development time should focus on:
+
+1. **Building Working Examples**: Create complete, functional examples showing different team dynamics
+2. **Optimizing Code**: Ensure examples run efficiently to minimize API costs
+3. **Clear Documentation**: Add detailed comments explaining the "why" behind code choices
+4. **Modular Design**: Structure code so students can easily modify specific parts
+5. **Simplifying Complexity**: Abstract complex operations behind simple interfaces
 
 When updating CrewAI-related code:
 
