@@ -1,74 +1,57 @@
-# Team Simulation Project Guide
+# LEAD 352 Team Simulation Project
 
-Welcome to the Team Simulation Project for Leadership 352! This guide will help you get started with your team simulation, even if you've never used GitHub before.
+Welcome to the Team Simulation Project for LEAD 352: Teams and Interpersonal Dynamics! This site contains all the resources you need to complete your team simulation project.
 
-## 👋 Getting Started
-
-**Don't worry if you're not familiar with GitHub!** You can access all the materials you need directly through this website without needing to clone or download the repository.
-
-### What You'll Find Here
-
-- [Project Overview](#project-overview): What this project is about and what you can learn
-- [Assignment Instructions](#assignment-instructions): Step-by-step guides for completing your assignments
-- [Simulation Modules](#simulation-modules): Ready-to-use simulation models for your project
-- [Examples](#examples): Sample simulations to help you understand how everything works
-- [Resources](#resources): Additional resources and guides
-
-## 📝 Assignment Instructions
-
-### Check-in 1: Research Question and Simulation Design
+## 📋 Getting Started
 
 Your first assignment is to develop a research question and design your simulation.
 
-1. Download the [Check-in 1 Worksheet](../check_in_1_worksheet.docx) (Right-click and select "Save link as...")
-2. Download the [Check-in 1 Summary Template](../check_in_1_summary_template.docx) (Right-click and select "Save link as...")
-3. Complete both documents with your team
-4. Submit through the course management system by the due date
+1. Download the [Check-in 1 Worksheet](templates/check_in_1_worksheet.docx) (Right-click and select "Save link as...")
+2. Download the [Check-in 1 Summary Template](templates/check_in_1_summary_template.docx) (Right-click and select "Save link as...")
+3. Review the [Research Question Guide](research_question_guide.md) to develop an effective research question
 
-Need help? See the [Research Question Guide](research_question_guide.md) for tips on developing effective research questions.
+## 🔍 Simulation Guides
 
-## 🤖 Simulation Modules
+Choose the simulation type that best matches your research question:
 
-You'll be using AI-powered simulation modules to explore team dynamics. The repository includes:
+- [Leadership Simulation Guide](leadership_simulation_guide.md) - Explore how different leadership styles affect team dynamics
+- [Diversity Simulation Guide](diversity_simulation_guide.md) - Investigate how team diversity and inclusion impact outcomes
+- [Team Simulation Guide](team_simulation_guide.md) - Design custom team compositions and interactions
 
-### Leadership Style Simulation
+## 🔧 Setup Instructions
 
-Explore how different leadership styles (authoritarian, democratic, laissez-faire, transformational) affect team performance.
+Follow these guides to set up your environment:
 
-[Learn about Leadership Style Simulation →](leadership_simulation_guide.md)
+- [Python Setup Guide](setup_python.md) - Install Python and required packages
+- [CrewAI Setup Guide](crewai_setup_guide.md) - Learn how to use CrewAI and LLM models
+- [GitHub Basics for Students](github_basics.md) - Access project files without Git knowledge
 
-### Diversity and Inclusion Simulation
+## 📊 Analysis Resources
 
-Investigate how team diversity and inclusion practices impact team dynamics and outcomes.
+After running your simulations, use these resources to analyze your results:
 
-[Learn about Diversity and Inclusion Simulation →](diversity_simulation_guide.md)
+- [Analyzing Simulation Results](analyzing_results_guide.md) - Extract insights from your simulation data
+- Example notebooks in the `examples/analysis` folder
 
-## 💡 Examples
+## 📅 Project Timeline
 
-Not sure where to start? Check out these examples:
+| Date | Milestone |
+|------|-----------|
+| Week 3 | Form teams and select research question |
+| Week 5 | Check-in 1: Research question and simulation design |
+| Week 8 | Check-in 2: Initial results and analysis plan |
+| Week 10 | Final presentation |
+| Finals Week | Final report due |
 
-- [Basic Team Simulation Example](basic_simulation_guide.md)
-- [Leadership Comparison Example](leadership_comparison_guide.md)
-- [Analyzing Simulation Results](analyzing_results_guide.md)
+## 🧩 Additional Resources
 
-## 🔧 Setting Up Your Environment
+- [Example simulation configurations](https://github.com/actonbp/352-agent-project/tree/main/examples)
+- [Sample datasets](https://github.com/actonbp/352-agent-project/tree/main/data/samples)
+- Office hours: Tuesdays 2-4pm, Wednesdays 10am-12pm
 
-If you want to run simulations on your own computer:
+## 🤔 Questions?
 
-1. [Setting Up Python](setup_python.md) - A beginner's guide to installing Python
-2. [Installing Required Packages](setup_packages.md) - Step-by-step instructions
-3. [Getting an OpenAI API Key](setup_api_key.md) - How to get and set up your API key
-
-## 📚 Resources
-
-- [CrewAI Setup Guide](../examples/crewai_setup_guide.md)
-- [Team Simulation Guide](../src/team_simulation_guide.md)
-- [GitHub Basics for Students](github_basics.md)
-
-## 🙋‍♀️ Need Help?
-
-If you're having trouble with any part of this project:
-
-1. Check the [Frequently Asked Questions](faq.md)
-2. Consult the [Troubleshooting Guide](troubleshooting.md)
-3. Ask questions during class or office hours 
+If you have questions, please:
+1. Check the existing guides and documentation
+2. Post on the course discussion board
+3. Email the instructor at bacton@berkley.edu 
