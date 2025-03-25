@@ -1,0 +1,16 @@
+# Core simulation requirements
+crewai>=0.14.0
+python-dotenv>=1.0.0
+
+# For local model support
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.3
+
+# For data analysis
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Optional: for advanced visualization
+networkx>=3.1
+seaborn>=0.12.0
